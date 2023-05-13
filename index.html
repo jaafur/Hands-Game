@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock,Paper or Scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+        <div class="user">
+            <div class="player">You</div>
+            <div class="user-font-wrapper">
+                <i class="rock fa-regular fa-hand-back-fist fa-flip-horizontal"></i>
+                <i class="paper fa-regular fa-hand fa-flip-horizontal"></i>
+                <i class="scissor fa-regular fa-hand-scissors fa-flip-horizontal"></i>
+            </div>
+            
+        </div>
+        <div class="computer">
+            <div class="computer1">Computer</div>
+            <div class="computer-font-wrapper">
+                <i class="rock fa-regular fa-hand-back-fist"></i>
+                <i class="paper fa-regular fa-hand"></i>
+                <i class="scissor fa-regular fa-hand-scissors"></i>
+            </div>
+            
+        </div>
+    </div>
+    <div class="chooses">
+        <span class="user-choose"><i class="fa-regular fa-hand-peace fa-flip-horizontal"></i></span >
+        <span  class="computer-choose"><i class="fa-regular fa-hand-peace"></i></span >
+    </div>
+        <h3 class="winner">Winner</h3>
+        <div class="result">
+            <div class="score">user : <span class="user-score"></span></div>
+            <div class="score">computer : <span class="computer-score"></span></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
